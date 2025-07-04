@@ -1,9 +1,21 @@
 {
+  "name": "previsao_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "node --watch index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
   "dependencies": {
-    "axios": "^1.10.0",
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "axios": "^1.9.0",
     "cors": "^2.8.5",
-    "dotenv": "^17.0.1",
-    "express": "^5.1.0",
-    "primereact": "^10.9.6"
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
   }
 }
