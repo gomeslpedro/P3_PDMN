@@ -10,7 +10,7 @@ const Exibicao = ({ previsoes, tipo }) => {
     if (!previsoes || previsoes.length === 0) {
 
         return (
-            <p className="mt-4 flex justify-content-center">Sem previsao disponivel!</p>
+            <p className="mt-6 flex justify-content-center">Sem previsao disponivel!</p>
         );
     }
 
@@ -22,7 +22,7 @@ const Exibicao = ({ previsoes, tipo }) => {
                     <Card
                         title="Previsão do Dia"
                         subTitle={striptags(previsao.description)}
-                        className="w-20 shadow-2 border-round p-3">
+                        className="w-20 shadow-4 border-round p-3">
 
                        <img
                         src={previsao.icon}
