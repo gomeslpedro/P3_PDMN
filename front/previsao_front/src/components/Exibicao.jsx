@@ -20,7 +20,7 @@ const Exibicao = ({ previsoes, tipo }) => {
                 <div key={index} className="col-12 md:col-2 sm:col-12 flex justify-content-center">
 
                     <Card
-                        title="Previsão do Tempo"
+                        title="Previsão do Dia"
                         subTitle={striptags(previsao.description)}
                         className="w-20 shadow-2 border-round p-3">
 
